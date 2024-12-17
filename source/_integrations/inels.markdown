@@ -28,3 +28,20 @@ There is currently support for the following device types within Home Assistant:
 - See the [Wiki page](https://wiki.inels.com/) for instructions on how to configure the control units.
 
 {% include integrations/config_flow.md %}
+
+## Removing the integration
+
+This integration follows standard integration removal. No extra steps are required.
+
+{% include integrations/remove_device_service.md %}
+
+### To remove a setting from eLANRF
+
+1. Launch the **IDM** application.
+2. Select **Configuration of the central unit** from the menu.
+3. Select **MQTT settings** then choose **Not Connect** in the mode options and click **Save to CU**.
+
+### To remove a setting from CU3
+
+1. Open the eLANRF **web** interface.
+2. Go to **Settings** and disable MQTT under **MQTT connection**.
